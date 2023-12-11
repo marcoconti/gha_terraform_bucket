@@ -16,7 +16,7 @@ jobs:
     name: 'terraform apply dev'
     runs-on: ubuntu-latest
     env:
-      TF_WORKING_DIR: ''
+      TF_WORKING_DIR: '/'
 
     defaults:
       run:
