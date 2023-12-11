@@ -1,13 +1,13 @@
 variable "access_key" {
   type        = string
   description = ""
-  default     = "AKIAYFCUTGTB3F5YWEW3"
+  default     = ""
 }
 
 variable "secret_key" {
   type        = string
   description = ""
-  default     = "navDGN++Lhf6SEMRmngjkdMf43oPAQuVShxnjmPh"
+  default     = ""
 }
 
 variable "environment" {
