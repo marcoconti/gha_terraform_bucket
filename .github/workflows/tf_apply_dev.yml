@@ -1,4 +1,4 @@
-name: Apply terraform resources on folder GHA_TERRAFORM_BUCKET with dev config
+name: Apply terraform resources on folder GHA_TERRAFORM_BUCKET with DEV config
 
 on:
   push:
