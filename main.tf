@@ -18,6 +18,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "treino_terraform_bucket" {
-  bucket = "gha-terraform-bucket-mac-${var.environment}-20231208-v2"
+  bucket = "gha-terraform-bucket-mac-${var.environment}-20231208-v3"
   tags   = var.tags
+  provider = aws
 }
