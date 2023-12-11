@@ -1,2 +1,2 @@
 environment = "prod"
-teste_action = "prod"
+teste_action = "prod-v2"
